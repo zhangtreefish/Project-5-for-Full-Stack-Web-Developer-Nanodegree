@@ -26,20 +26,20 @@ iii. softwares installed and configuration changes made:
     URIs' and 'Site URL' at the app's Settings tab
   - set up and enable firewall including denying access via port 22
   - in /etc/ssh/sshd_config, disable password login and root login, reset port.
-  - install Glances
+  - install Glances per resource #7.
     - sudo apt-get install python-pip build-essential python-dev
     - sudo pip install Glances
     - sudo apt-get install lm-sensors
     - sudo pip install pysensors
-  - install Fail2Ban
+  - install Fail2Ban to have jail nginx-http-auth and jail ssh per resource #8.
 
 iv. third-party resources, including:
-  - https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps
-  - https://github.com/carwin/markdown-styleguide
-  - https://developers.facebook.com/
-  - https://console.developers.google.com
-  - https://api.imgur.com/
-  - http://stackoverflow.com/
-  - http://askubuntu.com/questions/293426/system-monitoring-tools-for-ubuntu
-  - https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-
+  1. https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps
+  2. https://github.com/carwin/markdown-styleguide
+  3. https://developers.facebook.com/
+  4. https://console.developers.google.com
+  5. https://api.imgur.com/
+  6. http://stackoverflow.com/
+  7. http://askubuntu.com/questions/293426/system-monitoring-tools-for-ubuntu
+  8. https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-
     ubuntu-14-04
