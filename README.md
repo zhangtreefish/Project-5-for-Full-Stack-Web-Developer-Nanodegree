@@ -8,7 +8,7 @@ iii. softwares installed and configuration changes made:
   - to upgrade packages of the Ubuntu environment:
     - sudo apt-get update
     - sudo apt-get dist-upgrade
-  - to establish virtual machine at the remote server at /var/www/FoodTherapy/FoodsTherapy:
+  - to establish virtual machine at the server at /var/www/FoodTherapy/FoodsTherapy:
     - sudo pip install virtualenv
     - sudo virutalenv venv
     - source venv/bin/activate
@@ -19,27 +19,28 @@ iii. softwares installed and configuration changes made:
     - pip install oauth2client
     - pip install imgurpython
     - pip install sqlalchemy
-  - set up a user and its password, and establish its ssh using public key/private key pair
-    authentication
+  - set up a user and its password, and establish its ssh using public key/private key
+    pair authentication
   - edit 'Authorized redirect URIs' of app credentials at google API Manager tab
   - register app at 'facebook for developers' and provide 'Valid OAuth redirect
     URIs' and 'Site URL' at the app's Settings tab
   - set up and enable firewall including denying access via port 22
   - in /etc/ssh/sshd_config, disable password login and root login, reset port.
-  - install Glances per resource #7.
+  - to monitor the linux system install Glances per resource #7.
     - sudo apt-get install python-pip build-essential python-dev
     - sudo pip install Glances
     - sudo apt-get install lm-sensors
     - sudo pip install pysensors
-  - install Fail2Ban to have jail nginx-http-auth and jail ssh per resource #8.
+  - install Fail2Ban, enabling jail nginx-http-auth and jail ssh per resource #8.
 
 iv. third-party resources, including:
-  1. https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps
+  1. https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-
+     ubuntu-vps
   2. https://github.com/carwin/markdown-styleguide
   3. https://developers.facebook.com/
   4. https://console.developers.google.com
   5. https://api.imgur.com/
   6. http://stackoverflow.com/
   7. http://askubuntu.com/questions/293426/system-monitoring-tools-for-ubuntu
-  8. https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-
-    ubuntu-14-04
+  8. https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-
+     on-ubuntu-14-04
