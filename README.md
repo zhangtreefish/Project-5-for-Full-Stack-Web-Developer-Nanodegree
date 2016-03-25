@@ -32,6 +32,10 @@ iii. softwares installed and configuration changes made:
     - sudo apt-get install lm-sensors
     - sudo pip install pysensors
   - install Fail2Ban, enabling jail nginx-http-auth and jail ssh per resource #8.
+  - set up automatic updates, by the following per resource #9
+    - sudo apt-get install unattended-upgrades
+    - edit /etc/apt/apt.conf.d/50unattended-upgrades
+    - edit /etc/apt/apt.conf.d/10periodic
 
 iv. third-party resources, including:
   1. https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-
@@ -44,3 +48,4 @@ iv. third-party resources, including:
   7. http://askubuntu.com/questions/293426/system-monitoring-tools-for-ubuntu
   8. https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-
      on-ubuntu-14-04
+  9. https://help.ubuntu.com/lts/serverguide/automatic-updates.html
