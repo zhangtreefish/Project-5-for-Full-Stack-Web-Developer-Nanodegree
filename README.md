@@ -17,7 +17,7 @@ iii. softwares installed and configuration changes made:
   - upgrade packages of the Ubuntu environment:
     - sudo apt-get update
     - sudo apt-get dist-upgrade
-  - to establish virtual machine at the server at /var/www/FoodTherapy/FoodsTherapy:
+  - to establish virtual machine at the server at /var/www/FoodTherapy/FoodsTherapy[10]:
     - sudo pip install virtualenv
     - sudo virutalenv venv
     - source venv/bin/activate
@@ -52,3 +52,4 @@ iv. third-party resources, including:
   8. https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-
      on-ubuntu-14-04
   9. https://help.ubuntu.com/lts/serverguide/automatic-updates.html
+  10. https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
