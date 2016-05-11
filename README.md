@@ -2,7 +2,7 @@
 i. IP address: 52.24.239.208; SSH port: 2200
 
 ii. The complete URL to my web application hosted at Amazon Web Services platform:
-http://ec2-52-24-239-208.us-west-2.compute.amazonaws.com/
+http://ec2-52-38-199-253.us-west-2.compute.amazonaws.com
 
 iii. softwares installed and configuration changes made:
   - set up a user and its password, and establish its ssh using public key/private key
