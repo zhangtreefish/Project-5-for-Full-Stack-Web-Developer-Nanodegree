@@ -28,6 +28,10 @@ iii. softwares installed and configuration changes made:
     - sudo pip install oauth2client
     - sudo pip install imgurpython
     - sudo pip install sqlalchemy
+    - for psycopg2[11]:
+      -sudo apt-get install postgresql
+      -sudo apt-get install python-psycopg2
+      -sudo apt-get install libpq-dev
   
   - to monitor the linux system install Glances per resource #7.
     - sudo apt-get install python-pip build-essential python-dev
@@ -51,3 +55,4 @@ iv. third-party resources, including:
   8. https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-14-04
   9. https://help.ubuntu.com/lts/serverguide/automatic-updates.html
   10. https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+  11. http://stackoverflow.com/questions/28253681/you-need-to-install-postgresql-server-dev-x-y-for-building-a-server-side-extensi
