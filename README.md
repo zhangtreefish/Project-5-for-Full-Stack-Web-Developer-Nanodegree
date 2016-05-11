@@ -41,15 +41,13 @@ iii. softwares installed and configuration changes made:
     - edit /etc/apt/apt.conf.d/10periodic
 
 iv. third-party resources, including:
-  1. https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-
-     ubuntu-vps
+  1. https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps
   2. https://github.com/carwin/markdown-styleguide
   3. https://developers.facebook.com/
   4. https://console.developers.google.com
   5. https://api.imgur.com/
   6. http://stackoverflow.com/
   7. http://askubuntu.com/questions/293426/system-monitoring-tools-for-ubuntu
-  8. https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-
-     on-ubuntu-14-04
+  8. https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-14-04
   9. https://help.ubuntu.com/lts/serverguide/automatic-updates.html
   10. https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
