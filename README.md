@@ -18,6 +18,7 @@ iii. softwares installed and configuration changes made:
     - sudo apt-get update
     - sudo apt-get dist-upgrade
   - to establish virtual machine at the server at /var/www/FoodTherapy/FoodsTherapy[10]:
+    - sudo apt-get -y install python-pip
     - sudo pip install virtualenv
     - sudo virtualenv venv
     - source venv/bin/activate
