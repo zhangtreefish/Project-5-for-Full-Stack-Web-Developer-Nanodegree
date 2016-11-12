@@ -19,7 +19,7 @@ iii. softwares installed and configuration changes made:
     - sudo apt-get dist-upgrade
   - to establish virtual machine at the server at /var/www/FoodTherapy/FoodsTherapy[10]:
     - sudo pip install virtualenv
-    - sudo virutalenv venv
+    - sudo virtualenv venv
     - source venv/bin/activate
   - inside the venv, install the following to serve the app:
     - sudo pip install flask
